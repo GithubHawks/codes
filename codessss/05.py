@@ -4,6 +4,7 @@ a=int(a)#10
 b=int(b)#2
 spl_list=[]
 fcnt=0
+#lol dummyyyy
 numbers = [i for i in range(1,a+1)]
 result = [seq for i in range(len(numbers), 0, -1) for seq in itertools.combinations(numbers, i) if sum(seq) == a]
 for i in range(len(result)):
